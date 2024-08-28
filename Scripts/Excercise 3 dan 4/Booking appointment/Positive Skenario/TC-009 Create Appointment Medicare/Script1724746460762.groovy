@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Precondition: User melakukan login'
 WebUI.callTestCase(findTestCase('Exercise 1 dan 2/Login/Positive Skenario/TC Login Positive'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Memastikan label pada halaman make appointment muncul'
@@ -28,8 +29,11 @@ WebUI.verifyElementPresent(findTestObject('Page_makeAppointment/dropdown_facilit
 'Melakukan input visit date'
 WebUI.sendKeys(findTestObject('Page_makeAppointment/textbox_visitDate'), Keys.chord('01082024', Keys.ENTER))
 
-'Melakukan input visit date'
-WebUI.sendKeys(findTestObject('Page_makeAppointment/textbox_comment'), 'Make appointment Tokyo Cura')
+'Melakukan input pada textbox comment'
+CustomKeywords.'curaHealth.insertComment.inputComment'()
+
+'Melakukan screenshot inputan make appointment'
+WebUI.takeScreenshot('screenshot/inputanmakeappointment.png')
 
 'Melakukan klik pada button book appointment'
 WebUI.click(findTestObject('Page_makeAppointment/button_appointment'), FailureHandling.STOP_ON_FAILURE)
@@ -42,4 +46,7 @@ WebUI.verifyElementPresent(findTestObject('Page_makeAppointment/button_goToHomep
 
 'Melakukan screenshot berhasil membuat appointment'
 WebUI.takeScreenshot('screenshot/BerhasilMembuatAppointment.png')
+
+'Menutup browser'
+WebUI.closeBrowser()
 

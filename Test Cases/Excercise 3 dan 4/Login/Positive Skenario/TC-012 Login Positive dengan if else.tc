@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC terdapat kondisi jika melakukan input username salah</description>
+   <name>TC-012 Login Positive dengan if else</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>31d3a527-d205-44d6-ba6f-a1aab47370f5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>842cb338-d2c4-437c-af1d-019a5d43b8c3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d5a215af-4592-4524-a19d-a69789484a8d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>09dec6a5-7ec9-464e-9935-e8cd919968dc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>842cb338-d2c4-437c-af1d-019a5d43b8c3</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>d5a215af-4592-4524-a19d-a69789484a8d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'John aja'</defaultValue>
+      <description></description>
+      <id>09dec6a5-7ec9-464e-9935-e8cd919968dc</id>
+      <masked>false</masked>
+      <name>usernameSalah</name>
+   </variable>
+</TestCaseEntity>

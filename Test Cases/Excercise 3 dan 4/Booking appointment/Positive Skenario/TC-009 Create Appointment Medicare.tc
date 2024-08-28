@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>TC ini menggunakan custom keyword pada textbox comment halaman make appointment</description>
    <name>TC-009 Create Appointment Medicare</name>
    <tag></tag>
    <comment></comment>
