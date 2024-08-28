@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cek History Appointment Without Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d2277aa-3b38-484e-8d68-baa3c6166ae4</testCaseGuid>
+</TestCaseEntity>

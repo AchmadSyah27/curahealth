@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-007 Cek History Appointment Without Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1a6f4a69-b03f-4bbf-a6bc-d71b32c2f358</testCaseGuid>
+</TestCaseEntity>
