@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "2260EDA68E80A7FB9D597AD2CF2EED26",
+  "keywordClasses": [
+    {
+      "name": "curaHealth.insertComment",
+      "keywordMethods": [
+        {
+          "name": "inputComment",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

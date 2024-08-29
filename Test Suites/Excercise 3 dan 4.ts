@@ -14,49 +14,49 @@
    <testCaseLink>
       <guid>9d20991e-79d0-45d0-8bce-9cadbacfdc23</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Excercise 3 dan 4/Cek History/Negative Skenario/TC-007 Cek History Appointment Without Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>73ade812-3e25-4a5f-9d27-47e7f4ca1353</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Excercise 3 dan 4/Cek History/Positive Skenario/TC-006 Cek History Appointment Medicare</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>05db6404-d8f6-4f15-b50c-64ade15de110</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Excercise 3 dan 4/Booking appointment/Negative Skenario/TC-010 Failed make appointment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7a5b52a7-725b-4447-93c8-29fce1f52eac</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Excercise 3 dan 4/Booking appointment/Positive Skenario/TC-009 Create Appointment Medicare</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>defe141d-33d4-41ff-b591-088d58831cea</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Excercise 3 dan 4/Logout/TC-008 Logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>4b71b680-6509-4d21-b1e3-ed3af272be90</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Excercise 3 dan 4/Login/Negative Skenario/TC-002 Login blank field</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e635679d-0726-44e7-b5a5-07475d066fcc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Excercise 3 dan 4/Login/Negative Skenario/TC-004 Login without password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -69,7 +69,7 @@
    <testCaseLink>
       <guid>1fc42bc8-f276-4ccb-8836-e1678ca71147</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Excercise 3 dan 4/Login/Negative Skenario/TC-003 Login without username</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -82,7 +82,7 @@
    <testCaseLink>
       <guid>fc7f4583-ed02-47da-878c-de5b03cca243</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Excercise 3 dan 4/Login/Negative Skenario/TC-005 Login dengan user tidak terdaftar</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -101,7 +101,7 @@
    <testCaseLink>
       <guid>22014bcf-78eb-4002-a7c3-23f36af5c94e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Excercise 3 dan 4/Login/Positive Skenario/TC-001 Login Positive</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -143,6 +143,38 @@
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>66f7eeba-c9d4-40ac-8878-fcc1ce3e0b75</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8e4a49e6-3b42-4425-9d00-49c64ca06f2d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Excercise 3 dan 4/Logout/TC-008 Logout</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>32d1fe31-1d9a-434e-95d1-99c78f443297</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Excercise 3 dan 4/Login/Positive Skenario/TC-012 Login Positive dengan if else</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>842cb338-d2c4-437c-af1d-019a5d43b8c3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d5a215af-4592-4524-a19d-a69789484a8d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>09dec6a5-7ec9-464e-9935-e8cd919968dc</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
